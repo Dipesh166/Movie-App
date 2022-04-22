@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+body{
+    background-color: #090A0E;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.max-center {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero{
+    position: relative;
+    min-height: 460px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-content{
+    max-width: 70%;
+    padding-bottom: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-title{
+    font-size: 72px;
+    margin:0;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+    background-color: #090A0E;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+
+
+
+
+.movie-placeholder{
+    min-height: 259px;
+    background-color: white;
+    color: #090A0E;
+    display: flex;
+    justify-content: center;
+}
+   
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.Appp{
+    
+    background-color: #0f1014;
+    padding: 15px;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+
+}
+
+.movie-card{
+width: 100%;
+}
+
+.button--close{
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+}
+
+.youtube-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
