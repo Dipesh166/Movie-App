@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Project Deployed in Github.io
+Link OF Movie App: https://dipesh166.github.io/Movie-App/
+
 ## Available Scripts
 
 In the project directory, you can run:
